@@ -4,7 +4,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   margin: 0;
 }
 
@@ -155,67 +155,84 @@ body {
   color: #737373;
 }
 
-.clients-card-header{
+.clients-card-header {
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 0.1px;
-  color: #252B42;
+  color: #252b42;
 }
 
-.client-card-subtext{
+.client-card-subtext {
   font-weight: 600;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.2px;
-color: #737373;
-
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
 }
 
 .section-separator {
   margin-bottom: 150px;
 }
 
-#client-card-img{
-  position:absolute;
+#client-card-img {
+  position: absolute;
   top: 26px;
   left: -64px;
 }
 
-.meet-section-card-header{
+.meet-section-card-header {
   font-weight: 600;
-font-size: 14px;
-line-height: 24px;
+  font-size: 14px;
+  line-height: 24px;
 
-text-align: center;
-letter-spacing: 0.2px;
+  text-align: center;
+  letter-spacing: 0.2px;
 
-
-color: #FFA62B;
+  color: #ffa62b;
 }
 
-.meet-section-card-subheader{
+.meet-section-card-subheader {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   /* identical to box height, or 150% */
-  
+
   text-align: center;
   letter-spacing: 0.1px;
-  
+
   /* text-color */
-  
-  color: #252B42;
+
+  color: #252b42;
 }
 
-
-.section-size{
+.section-size {
   width: 100%;
   max-width: 1920px;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
 }
+
+.form-btn {
+  padding: 15px 40px;
+  gap: 10px;
+  background: #ffa62b;
+  border-radius: 5px;
+  font-size: 14px;
+line-height: 28px;
+/* identical to box height, or 200% */
+
+text-align: center;
+letter-spacing: 0.2px;
+}
+
+.form-pos{
+  position: relative;
+  bottom: -259px;
+}
+
+
 
 @media only screen and (max-width: 600px) {
   .header-wrapper {
@@ -229,10 +246,8 @@ color: #FFA62B;
   }
 }
 
-
-@media all and (max-width:991px){
-  body{
-     overflow-x:hidden;
+@media all and (max-width: 991px) {
+  body {
+    overflow-x: hidden;
   }
-  
-  }
+}
