@@ -13,12 +13,22 @@ body {
   background-size: 1920px 1080px;
 }
 
-.section-header {
+.section-header-lg {
   line-height: 80px;
   font-size: 58px;
   letter-spacing: 0.2px;
   font-weight: 800;
   text-align: center;
+}
+
+.section-header-para-sizing {
+  font-size: 20px;
+  padding: 0px 109px;
+  padding-bottom: 40px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 30px;
 }
 
 .paragraph-style {
@@ -51,7 +61,7 @@ body {
 
 .card-pos {
   position: relative;
-  bottom: -79px;
+  bottom: -221px;
 }
 
 .card-header-text {
@@ -122,8 +132,28 @@ body {
 }
 .video .media-btn-img {
   position: absolute;
-  top: 150px;
-  left: 243px;
+  bottom: 18rem;
+  left: 24rem;
+}
+
+.video-small-header {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  letter-spacing: 0.1px;
+  /* text-color */
+  color: #252B42;
+}
+
+.video-small-paragraph {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  letter-spacing: 0.2px;
+  /* second-text-color */
+  color: #737373;
 }
 
 .section-header {
