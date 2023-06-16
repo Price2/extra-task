@@ -4,12 +4,13 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: #FAFAFA;
   margin: 0;
 }
 
 .header-wrapper {
   background: url("../Images/background.png") no-repeat center;
-  background-size: 1440px 678px;
+  background-size: 1920px 1080px;
   // height: 100vh;
 }
 
@@ -49,7 +50,8 @@ body {
 }
 
 .card-pos {
-  bottom: -8vh;
+  position: relative;
+  bottom: -79px;
 }
 
 //     margin-top: 50vh;
@@ -113,24 +115,21 @@ body {
 
 .video {
   position: relative;
-  width: 597px;
-  height: 442px;
-  background-image: url("/Images/media-background.svg");
-  background-position: center;
-  background-size: cover;
-img{
-  position: absolute;
-    left: 0;
+  top: 0;
+  left: 0;
+  .media-bg-img {
+    position: relative;
     top: 0;
-    right: 0;
-    bottom: 0;
-
-    display: block;
-    margin: auto; 
+    left: 0;
+  }
+  .media-btn-img {
+    position: absolute;
+    top: 150px;
+    left: 243px;
+  }
 }
-}
 
-.video-section-header {
+.section-header {
   font-weight: 700;
   font-size: 40px;
   line-height: 57px;
@@ -141,7 +140,7 @@ img{
   color: #252b42;
 }
 
-.video-section-paragraph {
+.section-paragraph {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -156,8 +155,66 @@ img{
   color: #737373;
 }
 
+.clients-card-header{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+
+.client-card-subtext{
+  font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.2px;
+color: #737373;
+
+}
+
 .section-separator {
   margin-bottom: 150px;
+}
+
+#client-card-img{
+  position:absolute;
+  top: 26px;
+  left: -64px;
+}
+
+.meet-section-card-header{
+  font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+
+text-align: center;
+letter-spacing: 0.2px;
+
+
+color: #FFA62B;
+}
+
+.meet-section-card-subheader{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  
+  text-align: center;
+  letter-spacing: 0.1px;
+  
+  /* text-color */
+  
+  color: #252B42;
+}
+
+
+.section-size{
+  width: 100%;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -171,3 +228,11 @@ img{
     font-size: 40px;
   }
 }
+
+
+@media all and (max-width:991px){
+  body{
+     overflow-x:hidden;
+  }
+  
+  }
